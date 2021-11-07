@@ -2,3 +2,73 @@ html, body{
 
     background-color: rgb(231, 229, 229);
 }
+
+/* services section styling */
+#services{
+    text-align:center;
+}
+
+#services > p {
+
+    max-width:600px;
+    margin:auto;
+    text-align:justify;
+    line-height:23px;
+    font-size:14px;
+    font-style:italic;
+}
+
+#services > h1 {
+
+    font-size:22px;
+}
+
+#our-services{
+   display: flex;
+   width:100%;
+   height:auto;
+   margin-top:30px;
+   justify-content:center;
+}
+
+#our-services > .service {
+    background-color: white;
+    padding:30px 5px 50px 5px;
+    margin: 10px;
+    height: auto;
+    width: 250px;
+    text-align: center;
+  }
+
+  .service > .number {
+    box-sizing:border-box;
+    border-radius:100%;
+    width:50px;
+    height:50px;
+    padding:15px 0 10px 0;
+    margin-bottom:15px;
+    background-color:orange;
+    display:inline-block;
+    color:white;
+    font-weight:bold;
+  }
+
+.service{
+    text-align:center;
+}
+
+.service h3{
+    font-size:13px;
+}
+
+.service p{
+
+    max-width:600px;
+    margin:auto;
+    text-align:center;
+    line-height:23px;
+    font-size:12px;
+    font-style:italic;
+    padding:5px 3px 5px 3px;
+
+}
