@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(assets/fonts/Roboto/Roboto-Regular.ttf);
+  }
+
 body{
 
     background-color: rgb(231, 229, 229);
@@ -8,6 +13,7 @@ body{
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
   }
 
 
@@ -18,7 +24,7 @@ body{
     margin-bottom:50px;
     padding-left:50px;
     padding-right:0px;
-    background-image: url("assets/image9.png");
+    background-image: url("assets/images/image9.png");
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -54,7 +60,14 @@ body{
     width:100px;
     margin-top:10px;
     color:white;
+    font-weight:bold;
 }
+
+#links  ul  li a{
+    color:white;
+    text-decoration:none;
+}
+
 
 #links > button{
     padding:10px 25px 10px 25px;
@@ -205,7 +218,8 @@ body{
     margin-left:auto;
     margin-right:auto;
     margin-top:10px;
-    height:px;
+    height:1px;
+    color:white;
     background-color:white;
 
 }
@@ -221,6 +235,14 @@ body{
 .review-section > h4{
 
     margin-top:40px;
+
+
+}
+
+.review-section > h1{
+
+    font-weight:bold;
+    font-size:40px;
 
 
 }
@@ -241,7 +263,7 @@ body{
 
 #review-image-sect{
 
-    background-image:url("assets/image1.png");
+    background-image:url("assets/images/image1.png");
     background-repeat:no-repeat;
     background-size:cover;
 }
@@ -297,7 +319,7 @@ body{
 }
 
 #menu-image-1{
-    background-image: url("assets/image3.png");
+    background-image: url("assets/images/image3.png");
     background-repeat:no-repeat;
     background-size:contain;
 }
@@ -326,9 +348,9 @@ body{
     padding:5px 20px 5px 20px;
     margin-bottom:10px;
     font-size:10px;
-    background-color: rgb(199, 187, 187);
+    background-color: rgba(206, 209, 211, 0.753);
     border:none;
-    border-radius:3px;
+    border-radius:0px;
 
 }
 
@@ -348,21 +370,21 @@ body{
 
 
 #menu-image-2{
-    background-image: url("assets/image4.png");
+    background-image: url("assets/images/image4.png");
     background-repeat:no-repeat;
     background-size:contain;
 }
 
 
 #menu-image-3{
-    background-image: url("assets/image5.png");
+    background-image: url("assets/images/image5.png");
     background-repeat:no-repeat;
     background-size:contain;
 }
 
 
 #menu-image-4{
-    background-image: url("assets/image6.png");
+    background-image: url("assets/images/image6.png");
     background-repeat:no-repeat;
     background-size:contain;
 }
@@ -375,7 +397,7 @@ body{
     width:100%;
     height:460px;
     text-align:center;
-    background-image: url("assets/image7.png");
+    background-image: url("assets/images/image7.png");
     background-repeat:no-repeat;
     background-size:cover;
     padding-bottom:0px;
