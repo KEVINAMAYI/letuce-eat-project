@@ -16,8 +16,9 @@ body{
 
 #services > p {
 
-    max-width:600px;
+    max-width:700px;
     margin:auto;
+    margin-top:20px;
     text-align:justify;
     line-height:23px;
     font-size:14px;
@@ -149,4 +150,126 @@ body{
     background-image:url("assets/image1.png");
     background-repeat:no-repeat;
     background-size:cover;
+}
+
+
+/* menus section styling */
+#menus{
+    text-align:center;
+    height:auto;
+}
+
+#menus > p {
+
+    max-width:700px;
+    margin:auto;
+    margin-top:20px;
+    text-align:justify;
+    line-height:23px;
+    font-size:14px;
+    font-style:italic;
+}
+
+#menus > h1 {
+
+    font-size:22px;
+}
+
+#menu-list{
+    display:flex;
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+    height: auto;
+    justify-content:space-evenly;
+}
+
+#menu-list .menu-item{
+    display:flex;
+    width:40%;
+    height:210px;
+    margin:10px;
+    background-color:white;
+}
+
+
+#menu-list .menu-item > .menu-info{
+    width:260px;
+    height:180px;
+    margin:10px;
+    padding-left:20px;
+    text-align:left;
+}
+
+#menu-image-1{
+    background-image: url("assets/image3.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.menu-info h4{
+
+    margin-top:30px;
+    margin-bottom:25px;
+
+
+}
+
+
+.menu-info h3{
+
+    margin-top:0px;
+    margin-bottom:20px;
+    font-size:12px;
+    color:orange;
+
+
+}
+
+.menu-info button{
+
+    padding:5px 20px 5px 20px;
+    margin-bottom:10px;
+    font-size:10px;
+    background-color: rgb(199, 187, 187);
+    border:none;
+    border-radius:3px;
+
+}
+
+
+.menu-info p{
+
+    max-width:150px;
+    display:inline-block;
+    margin:auto;
+    color:rgb(37, 36, 36);
+    margin-bottom:20px;
+    line-height:13px;
+    font-size: 11px;
+    font-style:italic;
+
+
+
+}
+
+
+#menu-image-2{
+    background-image: url("assets/image4.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+
+#menu-image-3{
+    background-image: url("assets/image5.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+
+#menu-image-4{
+    background-image: url("assets/image6.png");
+    background-repeat:no-repeat;
+    background-size:contain;
 }
