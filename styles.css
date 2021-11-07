@@ -1,7 +1,13 @@
-html, body{
+body{
 
     background-color: rgb(231, 229, 229);
+    
 }
+
+* {
+    margin: 0;
+    padding: 0;
+  }
 
 /* services section styling */
 #services{
@@ -71,4 +77,76 @@ html, body{
     font-style:italic;
     padding:5px 3px 5px 3px;
 
+}
+
+
+/* review section styling */
+#review{
+
+    display:flex;
+    width:100%;
+    height:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+    background-color:black;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+#review .review-section{
+
+    width:50%;
+    height:580px;
+    padding-top:140px;
+    text-align:center;
+    color:white;
+    background-color:black;
+    box-sizing:border-box;
+}
+
+.review-section > hr{
+
+    width:10%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    height:px;
+    background-color:white;
+
+}
+
+.review-section > h3{
+
+    margin-top:50px;
+    margin-bottom:50px;
+
+
+}
+
+.review-section > h4{
+
+    margin-top:40px;
+
+
+}
+
+.review-section > p{
+
+    max-width:500px;
+    display:inline-block;
+    margin:auto;
+    line-height:23px;
+    font-size:12px;
+    font-style:italic;
+
+
+}
+
+
+
+#review-image-sect{
+
+    background-image:url("assets/image1.png");
+    background-repeat:no-repeat;
+    background-size:cover;
 }
