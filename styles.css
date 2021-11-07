@@ -1,6 +1,7 @@
 body{
 
     background-color: rgb(231, 229, 229);
+    overflow-x:hidden;
     
 }
 
@@ -8,6 +9,97 @@ body{
     margin: 0;
     padding: 0;
   }
+
+
+/* header styling section */
+#header{
+    width:100%;
+    height:520px;
+    margin-bottom:50px;
+    padding-left:50px;
+    padding-right:0px;
+    background-image: url("assets/image9.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+#nav{
+
+    display:flex;
+    width:100%;
+    padding-left:40px;
+}
+
+#nav > .nav-item{
+    width:50%;
+    height:50px;
+    padding-top:4px;
+}
+
+#logo{
+    display:flex;
+}
+
+.nav-item h4{
+    font-size:14px;
+    font-weight:bold;
+    margin-top:6px;
+    margin-left:5px;
+    color:orange;
+}
+
+#links > ul > li{
+    float:left;
+    list-style-type: none;
+    width:100px;
+    margin-top:10px;
+    color:white;
+}
+
+#links > button{
+    padding:10px 25px 10px 25px;
+    border-radius:0px;
+    border:0px;
+    background-color:orange;
+    font-weight:bold;
+    font-size:14px;
+    color:white;
+}
+
+
+#links{
+    background-color: rgba(0, 0, 0, 0.4);
+   
+}
+
+#teaser {
+
+    max-width:50%;
+}
+
+#teaser > p {
+    clear: both;
+    font-weight:bold;
+    font-size:30px;
+    color:white;
+    display:block;
+    max-width:430px;
+    margin-bottom: 50px;
+    padding-top:80px;
+
+
+
+}
+
+#teaser > button{
+    padding:10px 25px 10px 25px;
+    border-radius:0px;
+    border:0px;
+    background-color:orange;
+    font-weight:bold;
+    font-size:14px;
+    color:white;
+}
 
 /* services section styling */
 #services{
@@ -28,6 +120,7 @@ body{
 #services > h1 {
 
     font-size:22px;
+    color: orange;
 }
 
 #our-services{
@@ -173,6 +266,7 @@ body{
 #menus > h1 {
 
     font-size:22px;
+    color:orange;
 }
 
 #menu-list{
@@ -273,7 +367,7 @@ body{
 }
 
 
-/* menus section styling */
+/* footer section styling */
 #footer
 {
     margin-top:60px;
